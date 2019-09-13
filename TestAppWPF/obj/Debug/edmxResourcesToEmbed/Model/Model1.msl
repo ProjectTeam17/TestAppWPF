@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PowerPlantDbModel1StoreContainer" CdmEntityContainer="PowerPlantDbEntities1">
+    <EntitySetMapping Name="ComponentPowerPlants">
+      <EntityTypeMapping TypeName="PowerPlantDbModel1.ComponentPowerPlant">
+        <MappingFragment StoreEntitySet="ComponentPowerPlant">
+          <ScalarProperty Name="ComponentID" ColumnName="ComponentID" />
+          <ScalarProperty Name="ComponentName" ColumnName="ComponentName" />
+          <ScalarProperty Name="Power" ColumnName="Power" />
+          <ScalarProperty Name="Pressure" ColumnName="Pressure" />
+          <ScalarProperty Name="Speed" ColumnName="Speed" />
+          <ScalarProperty Name="Temparature" ColumnName="Temparature" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
